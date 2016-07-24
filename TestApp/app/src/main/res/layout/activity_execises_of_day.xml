@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".activity.ExercisesOfDayActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.75"
+        android:background="@drawable/section_week3">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/layout_width_btBack_activity_execises_of_day"
+            android:layout_height="@dimen/layout_height_btBack_activity_execises_of_day"
+            android:layout_marginBottom="@dimen/margin_bottom_btBack_activity_execises_of_day"
+            android:layout_marginTop="@dimen/margin_top_btBack_activity_execises_of_day"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/padding_btBack_activity_execises_of_day"
+            android:scaleType="fitStart"
+            android:src="@drawable/icon_bakc"/>
+
+        <TextView
+            android:id="@+id/titleWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_bottom_titleWeek_activity_execises_of_day"
+            android:layout_marginTop="@dimen/margin_top_titleWeek_activity_execises_of_day"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_titleWeek_activity_execises_of_day"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleWeek"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_tvWeek_activity_execises_of_day"/>
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWeek"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/marginTop_tvDay_activity_execises_of_day"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_tvDay_acitivity_execises_of_day"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:textAlignment="center"
+        app:tabIndicatorColor="@color/colorRed"
+        app:tabSelectedTextColor="@color/colorRed"
+        app:tabTextColor="@color/colorWhite"
+        android:background="#263238"
+        >
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tue"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wed"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu"/>
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fri"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sat"/>
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"/>
+    </android.support.design.widget.TabLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBlack">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/ic_remove"
+            android:layout_width="@dimen/layout_width_buttonAdjust_acitivity_execises_of_day"
+            android:layout_height="@dimen/layout_height__buttonAdjust_acitivity_execises_of_day"
+            android:background="@drawable/remove"/>
+
+        <TextView
+            android:id="@+id/txtRound"
+            android:layout_width="@dimen/layout_wight_txtRound_activity_execises_of_day"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/padding_txtRound_activity_execises_of_day"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_txtRound_activity_execises_of_day"
+            />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="@dimen/layout_width_buttonAdjust_acitivity_execises_of_day"
+            android:layout_height="@dimen/layout_height__buttonAdjust_acitivity_execises_of_day"
+            android:background="@drawable/add"/>
+    </LinearLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/layout_height_view"
+      android:background="@color/colorBlack"
+      ></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_fragment_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/marginBottom_RCV_activity_execises_of_day"
+            android:background="@color/colorWhite"
+            />
+
+        <ImageButton
+            android:id="@+id/btStart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_btStart_activity_execises"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttonstart"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

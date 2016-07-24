@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_list_exercises"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    *//72dp /*
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        >
+
+        <ImageView
+            android:id="@+id/background_ex"
+            android:layout_width="@dimen/layout_wight_background_ex_card_execises"
+            android:layout_height="@dimen/layout_height_background_ex_card_execises"
+            android:background="@drawable/rectangle"
+            android:layout_margin="@dimen/margin_background_ex_card_execises"
+            android:padding="@dimen/padding_background_ex_card_execises"
+            />
+
+        <TextView
+            android:id="@+id/titleWeek"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_titleWeek_card_execises"
+            android:layout_marginRight="@dimen/marginRight_titleWeek_card_execises"
+            android:layout_marginTop="@dimen/marginTop_titleWeek_card_execises"
+            android:layout_toRightOf="@+id/background_ex"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_titleWeek_card_execises"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="@dimen/layout_wight_imageBack_card_execises"
+            android:layout_height="@dimen/layout_height_imageBack_card_execises"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marginRight_imageBack_card_execises"
+            android:src="@drawable/back"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_view"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/titleWeek"
+            android:layout_marginTop="@dimen/marginTop_view_card_execises"
+            android:layout_marginLeft="@dimen/marginLeft_view_card_execises"
+            android:background="@color/colorBlack" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

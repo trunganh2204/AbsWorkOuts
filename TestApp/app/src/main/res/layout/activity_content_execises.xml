@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".activity.ContentExercisesActivity"
+    android:weightSum="8.25"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75">
+
+        <ImageButton
+            android:id="@+id/back_play_ex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/nameExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_nameExercises_activity_content_execises"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBlack">
+
+        </View>
+    </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.75"
+            android:layout_marginLeft="@dimen/marginLeft_animation_activity_content_execises"
+            android:layout_marginRight="@dimen/marginRight_animation_activity_content_execises"
+            android:layout_marginTop="@dimen/marginTop_animation_activity_content_execises"
+            android:layout_marginBottom="@dimen/marginBottom_animation_activity_content_execises"
+            android:padding="@dimen/paddingTop_animation_activity_content_execises"
+            android:background="@drawable/rectangle"
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/marginLeft_linear_layout_activity_content_exercises"
+        android:layout_marginRight="@dimen/marginRight_linear_layout_activity_content_exercises"
+        >
+        <TextView
+            android:layout_marginBottom="@dimen/margintBottom_instruction_activity_content_exercises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instruction"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_instruction_activity_content_exercises"
+            android:gravity="center"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_description_activity_content_exercises"
+                android:gravity="center_vertical"
+
+                />
+        </ScrollView>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_view"
+        android:background="@color/colorBlack">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linear_layout_share"
+        android:layout_marginLeft="@dimen/marginLeft_linear_layout_share_activity_content_exercises"
+        android:layout_marginRight="@dimen/marginRight_linear_layout_share_activity_content_exercises"
+        android:layout_marginTop="@dimen/marginTop_linear_layout_share_activity_content_exercises"
+        android:layout_marginBottom="@dimen/marginBottom_linear_layout_share_activity_content_exercises"
+        android:layout_weight="1.25"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnFB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_facebook" />
+
+        <ImageButton
+            android:id="@+id/btnTwitter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marginLeft_btn_linear_layout_share_activity_content_exercises"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_twitter" />
+
+        <ImageButton
+            android:id="@+id/btnInstagram"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marginLeft_btn_linear_layout_share_activity_content_exercises"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_instagram" />
+
+        <ImageButton
+            android:id="@+id/btnGmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marginLeft_btn_linear_layout_share_activity_content_exercises"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_mail" />
+
+    </LinearLayout>
+
+</LinearLayout>

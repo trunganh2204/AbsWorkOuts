@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Abs WorkOut</string>
+    <string name="action_settings">SETTING</string>
+    <string name="WorkOuts">WORKOUTS</string>
+    <string name="Exercises">EXERCISES</string>
+    <string name="Setting">SETTING</string>
+    <string name="more">MORE</string>
+    <string name="week1">Week 1</string>
+    <string name="week2">Week 2</string>
+    <string name="week3">Week 3</string>
+    <string name="week4">Week 4</string>
+    <string name="week5">Week 5</string>
+    <string name="week6">Week 6</string>
+    <string name="week7">Week 7</string>
+    <string name="Rest">Rest</string>
+    <string name="BallCrunch">Ball Crunch</string>
+    <string name="Legsonball">Ball Crunch(Legs on ball)</string>
+    <string name="Wheel">Ab wheel roll-out</string>
+    <string name="Onkness">Ab wheel roll-out(on kness)</string>
+    <string name="Hyperextension">Ball Hyperextension</string>
+    <string name="leftkness">Ab wheel roll-out(left kness)</string>
+    <string name="rightkness">Ab wheel roll-out(right-kness)</string>
+    <string name="Exit">Exit</string>
+    <string name="Pause">Pause</string>
+    <string name="Fast">Fast</string>
+    <string name="sounds">Sounds</string>
+    <string name="health_kit_is_not_available_is_this_device">Health Kit is not available in this device</string>
+    <string name="health_kit">Health Kit</string>
+    <string name="instagram">Instagram</string>
+    <string name="workout_series">WORKOUT SERIES</string>
+    <string name="facebook">Facebook</string>
+    <string name="share_with_friends">SHARE WITH FRIENDS</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="send_email_to_developer">Send email to developer</string>
+    <string name="feedback">Feeback</string>
+    <string name="text_more_usefull">More usefull apps</string>
+    <string name="more_usefull_apps">MORE USEFULL APPS</string>
+    <string name="text_tvTotalTime_activity_play_workouts">0:00</string>
+
+</resources>

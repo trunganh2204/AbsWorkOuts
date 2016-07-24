@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/paddingTop_item_list_workout">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/marginLeft_imageView_item_list_workout"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft_textViewTitle_item_list_workout"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSizeTitle"/>
+
+    <TextView
+        android:id="@+id/textViewDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginLeft="@dimen/marginLeft_textViewDetail_item_list_workout"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSizeDetail"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_view"
+        android:layout_below="@+id/textViewDetail"
+        android:background="@color/colorBlack"/>
+</RelativeLayout>
